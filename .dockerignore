@@ -1,0 +1,15 @@
+.git
+.venv
+.deps
+.tmp
+.npm-cache
+wheels
+node_modules
+frontend/node_modules
+frontend/dist
+data/*.sqlite3
+data/*.sqlite3-*
+data/logs
+__pycache__
+*.pyc
+docs/*.png

@@ -1,0 +1,14 @@
+services:
+  cb-lens:
+    build: .
+    ports:
+      - "8765:8765"
+    volumes:
+      - cb_lens_data:/app/data
+    environment:
+      CB_PASSWORD: ""
+      CB_READ_ONLY: "0"
+    restart: unless-stopped
+
+volumes:
+  cb_lens_data:

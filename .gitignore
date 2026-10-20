@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.deps/
+.tmp/
+.npm-cache/
+wheels/
+node_modules/
+frontend/node_modules/
+data/*.sqlite3
+data/*.sqlite3-*
+data/logs/
+.env
+*.log
+.pytest_cache/
+.DS_Store
+Thumbs.db
